@@ -147,7 +147,7 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         }
         return pinView
     }
-    
+    // eklediğimiz i'ye navigasyon ekledik.
     func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
         
         if selectedTitle != "" {
